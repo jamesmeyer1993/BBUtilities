@@ -1,0 +1,8 @@
+# play dvd:
+	$ mplayer dvd://"number"
+
+# identify dvd:
+    $ mplayer -identify dvd://
+
+# rip dvd (uncompressed rip):
+	$ mplayer -dumpstream dvd://"number" -nocache -dumpfile Movie.mpg
