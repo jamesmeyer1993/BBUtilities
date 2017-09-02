@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# yt
+#
+# downloads songs from youtube via youtube-dl
+
+if [ $1 = "help" ] ; then
+	echo "to update:"
+	echo "yt update"
+	echo "to download:"
+	echo "yt <url>"
+elif [ $1 = "update" ] ; then
+	sudo pip install --upgrade youtube-dl
+else
+	youtube-dl -x --audio-format flac $1
+fi
+# sudo pip install --upgrade youtube-dl
