@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox Web Browser
+Icon=firefox
+Exec=gksu firefox %u
+Comment=Browse the World Wide Web
+Path=
+Terminal=false
+StartupNotify=true
