@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# FIREFOX
+# - a launcher for Mozilla Firefox that requires admistrative privileges
+
+sudo -i firefox				# launch firefox w/ privileges
+
+setsid "$@" >& /dev/null & sleep 0.01	# detach the script from the terminal
