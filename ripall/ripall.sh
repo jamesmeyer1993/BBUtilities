@@ -1,3 +1,7 @@
+# ripall.sh
+# - calls mplayer within a loop to rip all encoded videos of a disk
+#	and store in mpg format.
+
 range=$1
 count=0
 
